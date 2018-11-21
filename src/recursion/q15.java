@@ -7,10 +7,10 @@ public class q15 {
 		int R=5, C=5, count=0;
 		char ground[][]=new char[R][C];
 		Random random=new Random();
-		for (int i = 0; i < ground.length; i++){ // ÀÓÀÇ °³¼öÀÇ ¹°¿õµ¢ÀÌ Æ÷ÇÔ Æò¸é »ı¼º
+		for (int i = 0; i < ground.length; i++){ // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 			for (int j = 0; j < ground[i].length; j++) ground[i][j]=(random.nextInt(3)==0)? '1' : '0';
 		}
-		for (int i = 0; i < ground.length; i++){ // Æò¸é Ãâ·Â
+		for (int i = 0; i < ground.length; i++){ // ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 			for (int j = 0; j < ground[i].length; j++) System.out.print(ground[i][j]);
 			System.out.println();
 		}
@@ -44,11 +44,11 @@ public class q15 {
 		int R = 5, C = 5;
 		char ground[][] = new char[R][C];
 		Random random = new Random();
-		for (int i = 0; i < ground.length; i++) { // ÀÓÀÇ °³¼öÀÇ ¹°¿õµ¢ÀÌ Æ÷ÇÔ Æò¸é »ı¼º
+		for (int i = 0; i < ground.length; i++) { // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 			for (int j = 0; j < ground[i].length; j++)
 				ground[i][j] = (random.nextInt(3) == 0) ? '1' : '0';
 		}
-		for (int i = 0; i < ground.length; i++) { // Æò¸é Ãâ·Â
+		for (int i = 0; i < ground.length; i++) { // ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 			for (int j = 0; j < ground[i].length; j++)
 				System.out.print(ground[i][j]);
 			System.out.println();
@@ -81,3 +81,5 @@ public class q15 {
 		}
 	}
 }
+
+//í´ë¡  í…ŒìŠ¤íŠ¸ì¤‘

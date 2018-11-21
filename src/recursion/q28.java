@@ -14,7 +14,7 @@ public class q28{
 			return;
 		}
 		for (int i = startIndex; i < N; i++) {
-			v[i]=1; genCombinations(N, K, i+1, v, len+1); v[i]=0;
+			v[i]++; genCombinations(N, K, i, v, len+1); v[i]--;
 		}
 	}
 }

@@ -1,8 +1,8 @@
 package recursion;
 
 /*public class q24 {
-	static int sum=21; // ºÎºĞÁıÇÕ ³» Á¤¼öµéÀÇ ÇÕÀÌ µÇ¾î¾ß ÇÒ °ª
-	static int n[]={1,3,4,5,8,9}; // ÀÔ·Â: n°³ Á¤¼ö
+	static int sum=21; // ï¿½Îºï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ç¾ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½
+	static int n[]={1,3,4,5,8,9}; // ï¿½Ô·ï¿½: nï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	public static void main(String[] args) {
 		int subset[]=new int[n.length];
 		subsetSum(subset, 0);
@@ -18,7 +18,7 @@ package recursion;
 				}
 				System.out.println();
 			}
-			// ºÎºĞÁıÇÕ ³» Á¤¼öÀÇ ÇÕÀÌ sumÀÌ µÇ´ÂÁö °Ë»ç ÈÄ ºÎºĞÁıÇÕ Ãâ·Â
+			// ï¿½Îºï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ sumï¿½ï¿½ ï¿½Ç´ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½ ï¿½ï¿½ ï¿½Îºï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 			return;
 		}
 		subset[i]=0;
@@ -30,8 +30,8 @@ package recursion;
 
 
 public class q24 {
-	static int sum=21; // ºÎºĞÁıÇÕ ³» Á¤¼öµéÀÇ ÇÕÀÌ µÇ¾î¾ß ÇÒ °ª
-	static int n[]={1,3,4,5,8,9}; // ÀÔ·Â: n°³ Á¤¼ö
+	static int sum=21; // ë¶€ë¶„ì§‘í•© ë‚´ ì •ìˆ˜ë“¤ì˜ í•©ì´ ë˜ì–´ì•¼ í•  ê°’
+	static int n[]={1,3,4,5,8,9}; // ì…ë ¥: nê°œ ì •ìˆ˜
 	public static void main(String[] args) {
 		int subset[]=new int[n.length];
 		subsetSum(subset, 0,0);
@@ -44,7 +44,7 @@ public class q24 {
 				}
 				System.out.println();
 			}
-			// ºÎºĞÁıÇÕ ³» Á¤¼öÀÇ ÇÕÀÌ sumÀÌ µÇ´ÂÁö °Ë»ç ÈÄ ºÎºĞÁıÇÕ Ãâ·Â
+			// ë¶€ë¶„ì§‘í•© ë‚´ ì •ìˆ˜ì˜ í•©ì´ sumì´ ë˜ëŠ”ì§€ ê²€ì‚¬ í›„ ë¶€ë¶„ì§‘í•© ì¶œë ¥
 			return;
 		}
 		subset[i]=0;

@@ -1,16 +1,16 @@
 package recursion;
 
-/*import java.util.Random;
+import java.util.Random;
 
 public class q15 {
 	public static void main(String[] args) {
 		int R=5, C=5, count=0;
 		char ground[][]=new char[R][C];
 		Random random=new Random();
-		for (int i = 0; i < ground.length; i++){ // ���� ������ �������� ���� ��� ����
+		for (int i = 0; i < ground.length; i++){ // 임의 개수의 물웅덩이 포함 평면 생성
 			for (int j = 0; j < ground[i].length; j++) ground[i][j]=(random.nextInt(3)==0)? '1' : '0';
 		}
-		for (int i = 0; i < ground.length; i++){ // ��� ���
+		for (int i = 0; i < ground.length; i++){ // 평면 출력
 			for (int j = 0; j < ground[i].length; j++) System.out.print(ground[i][j]);
 			System.out.println();
 		}
@@ -33,9 +33,9 @@ public class q15 {
 			}
 		}
 	}
-}*/
+}
 
-import java.util.Random;
+/*import java.util.Random;
 
 public class q15 {
 	static int cnt = 1;
@@ -44,11 +44,11 @@ public class q15 {
 		int R = 5, C = 5;
 		char ground[][] = new char[R][C];
 		Random random = new Random();
-		for (int i = 0; i < ground.length; i++) { // ���� ������ �������� ���� ��� ����
+		for (int i = 0; i < ground.length; i++) { // 임의 개수의 물웅덩이 포함 평면 생성
 			for (int j = 0; j < ground[i].length; j++)
 				ground[i][j] = (random.nextInt(3) == 0) ? '1' : '0';
 		}
-		for (int i = 0; i < ground.length; i++) { // ��� ���
+		for (int i = 0; i < ground.length; i++) { // 평면 출력
 			for (int j = 0; j < ground[i].length; j++)
 				System.out.print(ground[i][j]);
 			System.out.println();
@@ -80,6 +80,4 @@ public class q15 {
 			}
 		}
 	}
-}
-
-//클론 테스트중
+}*/

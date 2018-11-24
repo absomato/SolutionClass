@@ -1,6 +1,6 @@
 package recursion;
 
-import java.util.Random;
+/*import java.util.Random;
 
 public class q15 {
 	public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class q15 {
 		}
 		for (int i = 0; i < ground.length; i++) {
 			for (int j = 0; j < ground[i].length; j++){
-				if(ground[i][j]=='1'){ground[i][j]=0; dfs(ground, R, C, i, j); count++; }
+				if(ground[i][j]=='1'){ground[i][j]='0'; dfs(ground, R, C, i, j); count++; }
 			}
 		}
 		System.out.println(count);
@@ -33,9 +33,9 @@ public class q15 {
 			}
 		}
 	}
-}
+}*/
 
-/*import java.util.Random;
+import java.util.Random;
 
 public class q15 {
 	static int cnt = 1;
@@ -80,4 +80,4 @@ public class q15 {
 			}
 		}
 	}
-}*/
+}

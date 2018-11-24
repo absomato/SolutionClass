@@ -20,6 +20,5 @@ public class q27 {
 	private static boolean subsetSum(int[] n, int i, int partialSum) {
 		if(i==n.length) return partialSum==0;
 		return subsetSum(n, i+1, partialSum) || subsetSum(n, i+1, partialSum-n[i]);
-
 	}
 }

@@ -25,7 +25,7 @@ public class q08 {
 	visited[v]=true;
 	System.out.println(v+" ");
 	for(Integer i:adjList[v]) {
-		if(visited[i]==false)dfs(adjList,v,visited,i);
+		if(visited[i]==false)bfs(adjList,v,visited,i, i);
 	}
 	}
 }

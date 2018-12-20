@@ -16,8 +16,7 @@ public class q03 {
 		for (int i = 0; i < 5; i++) {
 			int u = random.nextInt(V);
 			int v = random.nextInt(V);
-			System.out.println("connected(" + u + "," + v
-					+ ") ? => " + (uf.find(u) == uf.find(v)));
+			System.out.println("connected(" + u + "," + v+ ") ? => " + (uf.find(u) == uf.find(v)));
 		}
 	}
 }

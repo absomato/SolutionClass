@@ -34,13 +34,14 @@ class BinarySearchTree {
 		if(tree==null) return new BinaryTree(key);
 		if(tree.key<key) tree.right=add(tree.right, key);
 		else if(tree.key>key) tree.left=add(tree.left, key);
-		else ; // value »ðÀÔ ½Ã else tree.value=value;
+		else ; // value ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ else tree.value=value;
 		return tree;
 	}
 	public BinaryTree search(int key) {
 		return searchRecur(root,key);
 	}
 	private BinaryTree searchRecur(BinaryTree node, int key) {
+		return node;
 		
 	}
 //	public BinaryTree search(int key) {
